@@ -7,3 +7,11 @@ class Node
     @right = nil
   end
 end
+
+class Tree
+  attr_accessor :array
+
+  def initialize(array)
+    @array = array
+  end
+end
